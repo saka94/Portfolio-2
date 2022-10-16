@@ -1,0 +1,50 @@
+.navbar {
+  background-color: white;
+  box-shadow: 0 10px 20px 0 rgb(175, 175, 175);
+  z-index: 100;
+}
+
+.textStyling {
+  color: black !important;
+  margin: 0rem 1rem;
+  text-decoration: none;
+  font-size: 1.3rem !important;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.textStyling:hover {
+  color: #0080ff !important;
+}
+
+.dropdownColor {
+  color: white !important;
+}
+
+.dropdownColor:hover {
+  color: lightskyblue !important;
+}
+
+.logo {
+  height: 4rem;
+}
+
+.ulStyling {
+  display: flex;
+  gap: 2rem;
+  font-size: 2rem;
+  list-style: none;
+  margin-bottom: 0px;
+  padding-left: 15px;
+}
+
+.navstyling {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.linkWrap {
+  display: flex;
+  flex-wrap: wrap;
+}

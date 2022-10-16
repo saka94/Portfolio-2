@@ -1,0 +1,39 @@
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(187, 187, 187);
+  padding-bottom: 5rem;
+}
+
+.cardStyling {
+  margin: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.54);
+  border-width: 0px !important;
+}
+
+.imgStyling {
+  width: 100%;
+  object-fit: cover;
+  height: 15rem;
+}
+
+.cardBodyStyling {
+  display: flex;
+  flex-direction: column;
+}
+
+.iconSize {
+  font-size: 2rem;
+}
+
+.buttonPlacement {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonStyling {
+  padding: 0.5rem 3rem;
+}

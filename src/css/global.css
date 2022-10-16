@@ -1,0 +1,23 @@
+:root {
+  --mainfont: "Open Sans", sans-serif;
+  --secondfont: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--mainfont) !important;
+  background-color: #d1d1d1 !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  min-height: 3rem;
+  background-color: white;
+  padding-top: 1rem;
+}
