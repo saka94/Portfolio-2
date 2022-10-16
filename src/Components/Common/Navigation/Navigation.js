@@ -26,7 +26,7 @@ export default function Navigation() {
                 <NavLink to="/" className={styles.textStyling}>
                   Home
                 </NavLink>
-                <NavLink to="/" className={styles.textStyling}>
+                <NavLink to="/projects" className={styles.textStyling}>
                   Projects
                 </NavLink>
                 <NavLink to="/about" className={styles.textStyling}>
